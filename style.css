@@ -128,7 +128,7 @@ body {
 }
 
 
-h1 {
+.logo {
 	font-size: 36px;
 	font-weight: bold;
 	text-align: center;
@@ -142,7 +142,7 @@ h1 {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	justify-content:space-between;
+	justify-content: space-between;
 	padding: 20px;
 }
 
@@ -159,8 +159,9 @@ h1 {
 }
 
 
-.block_2 {
+.block {
 	padding: 16px;
+	margin: 40px 0;
 }
 
 .cards {
@@ -169,13 +170,18 @@ h1 {
 	align-items: center;
 }
 
+.cards_r {
+	flex-direction: row-reverse
+}
 
-.block_2 h2 {
+
+
+.block h2 {
 	font-size: 27px;
 	font-weight: bold;
 }
 
-.block_2 p {
+.block p {
 	font-size: 19px;
 	font-weight: 400;
 }
@@ -191,4 +197,53 @@ h1 {
 
 .image {
 	margin: 0 12px;
+}
+
+.footer_t {
+	font-size: 19px;
+	font-weight: 400;
+	padding: 0 12px 0 28px;
+	line-height: 153.5%;
+	margin-bottom: 40px;
+	
+}
+
+.line {
+	width: 540px;
+	border-top: 2px solid black;
+	padding: 20px;
+	margin: 0 auto 0 auto;
+
+}
+
+.info {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	width: 559px;
+	height: 150px;
+	margin: 0 auto;
+}
+
+.ccont p {
+	text-align: center;
+	line-height: 120%;
+}
+.cont p {
+	width: 90px;
+	text-align: center;
+	line-height: 140%;
+}
+.cont a {
+	text-decoration: underline;
+	color: black;
+}
+
+.s_cont a{
+	margin: 0 13px;
+}
+
+.logo2 {
+	font-size: 26.63px;
 }
