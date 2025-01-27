@@ -205,7 +205,7 @@ body {
 	padding: 0 12px 0 28px;
 	line-height: 153.5%;
 	margin-bottom: 40px;
-	
+
 }
 
 .line {
@@ -230,17 +230,19 @@ body {
 	text-align: center;
 	line-height: 120%;
 }
+
 .cont p {
 	width: 90px;
 	text-align: center;
 	line-height: 140%;
 }
+
 .cont a {
 	text-decoration: underline;
 	color: black;
 }
 
-.s_cont a{
+.s_cont a {
 	margin: 0 13px;
 }
 
